@@ -15,7 +15,13 @@ class MovieListing extends StatelessWidget {
         elevation: 0,
       ),
       drawer: const NavDrawer(),
-      body: const SizedBox.shrink(),
+      body: Container (
+        child: Column(
+          children: const [
+            Text('Street Fighter'),
+            Text('Estranged street fighters Ryu and Ken Masters get thrown back into combat when the mysterious Chun-Li recruits them for the next World Warrior Tournament -- a brutal clash of fists, fate and fury. However, behind the battle royale lies a deadly conspiracy that forces them to face off against each other and the demons from their past.')
+          ],)
+      ),
     );
   }
 }
