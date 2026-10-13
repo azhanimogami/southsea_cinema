@@ -30,7 +30,7 @@ class _MovieListingState extends State<MovieListing> {
             const Text(
               'Street Fighter',
               style: TextStyle(
-                fontSize: 22,
+                fontSize: 32,
                 fontWeight: FontWeight.bold,
               ),
             ),
@@ -41,6 +41,10 @@ class _MovieListingState extends State<MovieListing> {
               'fists, fate and fury. However, behind the battle royale lies '
               'a deadly conspiracy that forces them to face off against each '
               'other and the demons from their past.',
+              style: TextStyle(
+                fontSize: 22,
+                fontWeight: FontWeight.bold,
+              ),
             ),
             const Row(
               children: [
